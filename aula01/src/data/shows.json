@@ -1,0 +1,325 @@
+[{
+    "score": 0.90924704,
+    "show": {
+        "id": 50603,
+        "url": "https://www.tvmaze.com/shows/50603/peacemaker",
+        "name": "Peacemaker",
+        "type": "Scripted",
+        "language": "English",
+        "genres": ["Comedy", "Action", "Science-Fiction"],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 43,
+        "premiered": "2022-01-13",
+        "ended": null,
+        "officialSite": "https://play.hbomax.com/page/urn:hbo:page:GYb0FKQLsGIyPfQEAAAAM:type:series",
+        "schedule": {
+            "time": "",
+            "days": ["Thursday"]
+        },
+        "rating": {
+            "average": 7.5
+        },
+        "weight": 100,
+        "network": null,
+        "webChannel": {
+            "id": 329,
+            "name": "HBO Max",
+            "country": null,
+            "officialSite": "https://www.hbomax.com/"
+        },
+        "dvdCountry": null,
+        "externals": {
+            "tvrage": null,
+            "thetvdb": 391153,
+            "imdb": "tt13146488"
+        },
+        "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/380/950547.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/380/950547.jpg"
+        },
+        "summary": "<p>The series will explore the origins of the Peacemaker, a man who believes in peace at any cost - no matter how many people he has to kill to get it.</p>",
+        "updated": 1644642632,
+        "_links": {
+            "self": {
+                "href": "https://api.tvmaze.com/shows/50603"
+            },
+            "previousepisode": {
+                "href": "https://api.tvmaze.com/episodes/2242377"
+            },
+            "nextepisode": {
+                "href": "https://api.tvmaze.com/episodes/2246768"
+            }
+        }
+    }
+}, {
+    "score": 0.8967016,
+    "show": {
+        "id": 12686,
+        "url": "https://www.tvmaze.com/shows/12686/peacemaker",
+        "name": "Peacemaker",
+        "type": "Animation",
+        "language": "Japanese",
+        "genres": ["Drama", "Action", "Anime", "History"],
+        "status": "Ended",
+        "runtime": 25,
+        "averageRuntime": 25,
+        "premiered": "2003-10-08",
+        "ended": "2004-03-24",
+        "officialSite": null,
+        "schedule": {
+            "time": "",
+            "days": ["Wednesday"]
+        },
+        "rating": {
+            "average": null
+        },
+        "weight": 56,
+        "network": {
+            "id": 263,
+            "name": "TV Asahi",
+            "country": {
+                "name": "Japan",
+                "code": "JP",
+                "timezone": "Asia/Tokyo"
+            }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+            "tvrage": null,
+            "thetvdb": 74633,
+            "imdb": "tt0796142"
+        },
+        "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/43/108569.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/43/108569.jpg"
+        },
+        "summary": "<p>The sword-slashing sequel to Peace Maker is here! Three months have passed since the Ikedaya Incident that crushed the anti-shogunate rebellion--and propelled the Shinsengumi, Kyoto's now-official police, into history as Kyoto's premium peacekeeping force. But there is no rest for the peaceful: An unexpected threat to the Shinsengumi arises, and it's going to take more than mere swords to defeat this new terror on the horizon.</p>",
+        "updated": 1584498339,
+        "_links": {
+            "self": {
+                "href": "https://api.tvmaze.com/shows/12686"
+            },
+            "previousepisode": {
+                "href": "https://api.tvmaze.com/episodes/601471"
+            }
+        }
+    }
+}, {
+    "score": 0.46939027,
+    "show": {
+        "id": 43083,
+        "url": "https://www.tvmaze.com/shows/43083/rauhantekija",
+        "name": "Rauhantekijä",
+        "type": "Scripted",
+        "language": "Finnish",
+        "genres": ["Drama", "Thriller"],
+        "status": "To Be Determined",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2020-09-06",
+        "ended": null,
+        "officialSite": "https://areena.yle.fi/1-50484832",
+        "schedule": {
+            "time": "21:00",
+            "days": ["Sunday"]
+        },
+        "rating": {
+            "average": null
+        },
+        "weight": 66,
+        "network": {
+            "id": 1385,
+            "name": "Yle TV1",
+            "country": {
+                "name": "Finland",
+                "code": "FI",
+                "timezone": "Europe/Helsinki"
+            }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+            "tvrage": null,
+            "thetvdb": 388252,
+            "imdb": "tt10236760"
+        },
+        "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/282/705910.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/282/705910.jpg"
+        },
+        "summary": "<p>The story set between Turkey, Syria and Spain tells of the world of peacemakers, international arms trade dealings and the deep-layered relationships with people in power.</p>",
+        "updated": 1612978349,
+        "_links": {
+            "self": {
+                "href": "https://api.tvmaze.com/shows/43083"
+            },
+            "previousepisode": {
+                "href": "https://api.tvmaze.com/episodes/1963865"
+            }
+        }
+    }
+}, {
+    "score": 0.4577372,
+    "show": {
+        "id": 21796,
+        "url": "https://www.tvmaze.com/shows/21796/the-peacemaker-la-gang-wars",
+        "name": "The Peacemaker: L.A. Gang Wars",
+        "type": "Reality",
+        "language": "English",
+        "genres": ["Crime"],
+        "status": "Ended",
+        "runtime": 30,
+        "averageRuntime": 30,
+        "premiered": "2010-12-16",
+        "ended": "2010-12-30",
+        "officialSite": null,
+        "schedule": {
+            "time": "22:00",
+            "days": ["Thursday"]
+        },
+        "rating": {
+            "average": null
+        },
+        "weight": 9,
+        "network": {
+            "id": 29,
+            "name": "A&E",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+            "tvrage": null,
+            "thetvdb": 213201,
+            "imdb": "tt1932333"
+        },
+        "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/78/196376.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/78/196376.jpg"
+        },
+        "summary": "<p>For many, the words evoke images of fear and violence. For Malik Spellman, the words put forth hope. A violence prevention counselor by day, Spellman tours the streets of his hometown at night, on a mission to bring peace to the troubled neighborhoods he's lived in for 30 years.</p>",
+        "updated": 1584497779,
+        "_links": {
+            "self": {
+                "href": "https://api.tvmaze.com/shows/21796"
+            },
+            "previousepisode": {
+                "href": "https://api.tvmaze.com/episodes/952651"
+            }
+        }
+    }
+}, {
+    "score": 0.45395964,
+    "show": {
+        "id": 16187,
+        "url": "https://www.tvmaze.com/shows/16187/peacemakers",
+        "name": "Peacemakers",
+        "type": "Scripted",
+        "language": "English",
+        "genres": ["Drama", "Crime", "Western"],
+        "status": "Ended",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2003-07-30",
+        "ended": "2003-10-08",
+        "officialSite": null,
+        "schedule": {
+            "time": "21:00",
+            "days": ["Wednesday"]
+        },
+        "rating": {
+            "average": null
+        },
+        "weight": 30,
+        "network": {
+            "id": 30,
+            "name": "USA Network",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+            "tvrage": null,
+            "thetvdb": 72299,
+            "imdb": "tt0353867"
+        },
+        "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/54/135235.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/54/135235.jpg"
+        },
+        "summary": "<p>In the late 1800's a new addition to law enforcement is evolving. Forensic science is in its infancy and the Wild West will never be the same. Enter Federal Marshal Jared Stone, the product of the Old West who has the smarts to know that the times are changing and he has to change with them. With ex-Pinkerton Agent Larimer Finch and local mortician Katie Owen, they make up Silver City, CO's., newest crime fighting team.</p>",
+        "updated": 1584497616,
+        "_links": {
+            "self": {
+                "href": "https://api.tvmaze.com/shows/16187"
+            },
+            "previousepisode": {
+                "href": "https://api.tvmaze.com/episodes/737850"
+            }
+        }
+    }
+}, {
+    "score": 0.36593676,
+    "show": {
+        "id": 46753,
+        "url": "https://www.tvmaze.com/shows/46753/peacemakers",
+        "name": "Peacemakers",
+        "type": "Documentary",
+        "language": "English",
+        "genres": ["History"],
+        "status": "Ended",
+        "runtime": 30,
+        "averageRuntime": 40,
+        "premiered": "2017-09-11",
+        "ended": "2017-09-25",
+        "officialSite": "http://www.bbc.co.uk/programmes/b0956j1k",
+        "schedule": {
+            "time": "22:40",
+            "days": ["Monday"]
+        },
+        "rating": {
+            "average": null
+        },
+        "weight": 7,
+        "network": {
+            "id": 12,
+            "name": "BBC One",
+            "country": {
+                "name": "United Kingdom",
+                "code": "GB",
+                "timezone": "Europe/London"
+            }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+            "tvrage": null,
+            "thetvdb": 335388,
+            "imdb": null
+        },
+        "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/246/616682.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/246/616682.jpg"
+        },
+        "summary": "Three-part documentary series following groups who advocated for peace in Northern Ireland.",
+        "updated": 1584498782,
+        "_links": {
+            "self": {
+                "href": "https://api.tvmaze.com/shows/46753"
+            },
+            "previousepisode": {
+                "href": "https://api.tvmaze.com/episodes/1818304"
+            }
+        }
+    }
+}]
