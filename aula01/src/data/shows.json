@@ -1,5 +1,5 @@
 [{
-    "score": 0.90924704,
+    "score": 0.91005147,
     "show": {
         "id": 50603,
         "url": "https://www.tvmaze.com/shows/50603/peacemaker",
@@ -18,7 +18,7 @@
             "days": ["Thursday"]
         },
         "rating": {
-            "average": 7.5
+            "average": 7.4
         },
         "weight": 100,
         "network": null,
@@ -39,7 +39,7 @@
             "original": "https://static.tvmaze.com/uploads/images/original_untouched/380/950547.jpg"
         },
         "summary": "<p>The series will explore the origins of the Peacemaker, a man who believes in peace at any cost - no matter how many people he has to kill to get it.</p>",
-        "updated": 1644642632,
+        "updated": 1645042043,
         "_links": {
             "self": {
                 "href": "https://api.tvmaze.com/shows/50603"
@@ -53,7 +53,7 @@
         }
     }
 }, {
-    "score": 0.8967016,
+    "score": 0.8976548,
     "show": {
         "id": 12686,
         "url": "https://www.tvmaze.com/shows/12686/peacemaker",
@@ -107,7 +107,7 @@
         }
     }
 }, {
-    "score": 0.46939027,
+    "score": 0.47037575,
     "show": {
         "id": 43083,
         "url": "https://www.tvmaze.com/shows/43083/rauhantekija",
@@ -161,7 +161,7 @@
         }
     }
 }, {
-    "score": 0.4577372,
+    "score": 0.45902014,
     "show": {
         "id": 21796,
         "url": "https://www.tvmaze.com/shows/21796/the-peacemaker-la-gang-wars",
@@ -215,7 +215,7 @@
         }
     }
 }, {
-    "score": 0.45395964,
+    "score": 0.4552563,
     "show": {
         "id": 16187,
         "url": "https://www.tvmaze.com/shows/16187/peacemakers",
@@ -269,7 +269,7 @@
         }
     }
 }, {
-    "score": 0.36593676,
+    "score": 0.36675,
     "show": {
         "id": 46753,
         "url": "https://www.tvmaze.com/shows/46753/peacemakers",

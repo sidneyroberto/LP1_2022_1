@@ -1,38 +1,49 @@
 type TVShow = {
-    id: number
-    name: string
-    type: string
-    language: string
-    genres: string[]
-    running: boolean
-    channel: string
-    premiereDate: Date
+  name: string
+  type: string
+  language: string
+  genres: string[]
+  isRunning: boolean
+  premieredDate: Date
+  channel: string
 }
 
-export const getTVShow = (tvShowOjb: any) => {
-    const {
-        id,
-        name,
-        type,
-        language,
-        genres,
-        status,
-        network,
-        webChannel,
-        premiered } = tvShowOjb
+// Arrow Function
+export const getTvShow = (objJson: any): TVShow => {
+  // Associação por desestruturação
+  const {
+    name,
+    type,
+    language,
+    genres,
+    status,
+    premiered,
+    network,
+    webChannel,
+  } = objJson
 
-    const tvShow: TVShow = {
-        id,
-        name,
-        type,
-        language,
-        genres,
-        running: status == 'Running' ? true : false,
-        channel: network ? network.name : webChannel.name,
-        premiereDate: new Date(premiered)
-    }
+  let year = 0
+  let month = 0
+  let day = 0
 
-    return tvShow
+  if (premiered) {
+    const slicedData = premiered.split('-')
+    year = parseInt(slicedData[0])
+    month = parseInt(slicedData[1]) - 1
+    day = parseInt(slicedData[2])
+  }
+
+  const tvShow: TVShow = {
+    name,
+    type,
+    language,
+    genres,
+    isRunning: status == 'Running' ? true : false,
+    premieredDate: premiered ? new Date(year, month, day) : null,
+    channel: network ? network.name : webChannel.name,
+  }
+
+  return tvShow
 }
 
 export default TVShow

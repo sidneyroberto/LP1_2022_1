@@ -1,11 +1,14 @@
-import tvShows from './data/shows.json'
-import TVShow, { getTVShow } from './models/TVShow'
+import showsJson from './data/shows.json'
+import { getTvShow } from './models/TVShow'
 
-tvShows.forEach(t => {
-    const tvShow: TVShow = getTVShow(t.show)
-    console.log(tvShow)
+let runningSeriesCounter = 0
+showsJson.forEach((s) => {
+  const show = s.show
+  const tvShow = getTvShow(show)
+  if (tvShow.isRunning) {
+    runningSeriesCounter++
+  }
 })
 
-const d1 = new Date(2022, 1, 3, 11, 53, 0)
-const d2 = new Date()
-console.log(d1 < d2)
+// Template literals
+console.log(`${runningSeriesCounter} running series`)
