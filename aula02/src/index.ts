@@ -1,27 +1,32 @@
 import { cities } from './data/cities.json'
+import {
+  findAboveAverageTemperatures,
+  findAverageTemperature,
+  findStandardDeviation,
+} from './utils/temperatureUtils'
 
-cities.forEach(city => {
-    let sum = 0
+cities.forEach((city) => {
+  const temperatures = city.temperatures
 
-    const temperatures = city.temperatures
-    temperatures.forEach(t => {
-        sum += t.celsius
-    })
+  /**
+   * Calcula a temperatura média do período
+   */
+  const average = findAverageTemperature(temperatures)
 
-    const average = sum / temperatures.length
-    const aboveAverageTemperatures = temperatures.filter(t => t.celsius > average)
+  /**
+   * Calcula o desvio padrão do período
+   */
+  const standardDeviation = findStandardDeviation(temperatures)
 
-    sum = 0
-    temperatures.forEach(t => {
-        let difference = t.celsius - average
-        sum += Math.pow(difference, 2)
-    })
-    const standardDeviation = Math.sqrt(sum / temperatures.length)
+  /**
+   * Encontra as temperaturas acima da média do período
+   */
+  const aboveAverageTemperatures = findAboveAverageTemperatures(temperatures)
 
-    console.log('------------------------------------')
-    console.log(`City: ${city.name}`)
-    console.log(`Average temperature: ${average}`)
-    console.log(`Above average temperatures:`)
-    console.log(aboveAverageTemperatures)
-    console.log(`Standard deviation: ${standardDeviation}`)
+  console.log('-----------------------------------------------')
+  console.log(`City: ${city.name}`)
+  console.log(`Average temperature: ${average}`)
+  console.log(`Standard deviation: ${standardDeviation}`)
+  console.log('Above average temperatures:')
+  console.log(aboveAverageTemperatures)
 })
