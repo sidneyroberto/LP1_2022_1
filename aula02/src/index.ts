@@ -1,11 +1,19 @@
 import { cities } from './data/cities.json'
+import City from './models/City'
+import { getTemperature } from './models/Temperature'
 import {
   findAboveAverageTemperatures,
   findAverageTemperature,
   findStandardDeviation,
 } from './utils/temperatureUtils'
 
-cities.forEach((city) => {
+cities.forEach((c) => {
+  const city: City = {
+    name: c.name,
+    state: c.state,
+    country: c.country,
+    temperatures: c.temperatures.map((t) => getTemperature(t)),
+  }
   const temperatures = city.temperatures
 
   /**

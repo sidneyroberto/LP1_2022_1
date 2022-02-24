@@ -1,4 +1,6 @@
-export const findAverageTemperature = (temperatures) => {
+import Temperature from '../models/Temperature'
+
+export const findAverageTemperature = (temperatures: Temperature[]) => {
   let sum = 0
   temperatures.forEach((t) => {
     sum += t.celsius
@@ -7,7 +9,7 @@ export const findAverageTemperature = (temperatures) => {
   return average
 }
 
-export const findStandardDeviation = (temperatures) => {
+export const findStandardDeviation = (temperatures: Temperature[]) => {
   let sum = 0
   const average = findAverageTemperature(temperatures)
   temperatures.forEach((t) => {
@@ -20,7 +22,7 @@ export const findStandardDeviation = (temperatures) => {
   return standardDeviation
 }
 
-export const findAboveAverageTemperatures = (temperatures) => {
+export const findAboveAverageTemperatures = (temperatures: Temperature[]) => {
   const average = findAverageTemperature(temperatures)
   const filteredTemperatures = temperatures.filter((t) => t.celsius > average)
   const aboveAverageTemperatures = filteredTemperatures.map((t) => t.celsius)
