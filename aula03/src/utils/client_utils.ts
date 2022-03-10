@@ -1,7 +1,8 @@
+import EmailValidator from 'email-validator'
 import { Client } from '../models/Client'
 
 export const isClientValid = (client: Client) => {
-  const { name, address, cpf, email, phone } = client
+  const { name, address, cpf, email, phone, code } = client
 
   if (!name) {
     return false
@@ -11,7 +12,7 @@ export const isClientValid = (client: Client) => {
     return false
   }
 
-  if (!email) {
+  if (!EmailValidator.validate(email)) {
     return false
   }
 
@@ -20,6 +21,10 @@ export const isClientValid = (client: Client) => {
   }
 
   if (!phone.match(/^\(\d{2}\)\s\d{5}-\d{4}$/)) {
+    return false
+  }
+
+  if (!code.match(/^(\d{4}|\d{5})-\d{2}$/)) {
     return false
   }
 

@@ -14,6 +14,7 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
+    "email-validator": "^2.0.4",
     "gerador-validador-cpf": "^5.0.2"
   }
 }

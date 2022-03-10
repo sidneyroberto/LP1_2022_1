@@ -9,6 +9,7 @@ const clients = []
 for (let i = 0; i < NUMBER_OF_CLIENTS; i++) {
   const seed1 = Math.floor(Math.random() * 100) % 2
   const seed2 = Math.floor(Math.random() * 100) % 2
+  const seed3 = Math.floor(Math.random() * 100) % 2
 
   const name = faker.name.firstName()
   const lastName = faker.name.lastName()
@@ -21,6 +22,7 @@ for (let i = 0; i < NUMBER_OF_CLIENTS; i++) {
     phone: faker.phone.phoneNumber(seed1 ? '(##) #####-####' : '#####-####'),
     email: faker.internet.email(name, lastName),
     cpf: generate({ format: seed2 ? true : false }),
+    code: faker.phone.phoneNumber(seed3 ? '####-##' : '#####-##'),
   }
   clients.push(client)
 }

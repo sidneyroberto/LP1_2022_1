@@ -4,10 +4,11 @@ export type Client = {
   phone: string
   email: string
   cpf: string
+  code: string
 }
 
 export const getClient = (objJson: any) => {
-  const { name, address, phone, email, cpf } = objJson
-  const client: Client = { name, address, phone, email, cpf }
+  const { name, address, phone, email, cpf, code } = objJson
+  const client: Client = { name, address, phone, email, cpf, code }
   return client
 }
