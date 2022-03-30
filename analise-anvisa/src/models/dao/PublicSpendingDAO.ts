@@ -1,10 +1,10 @@
 import { parse } from 'csv-parse/sync'
 import { readFileSync } from 'fs'
 import { join } from 'path'
-import PublicSpending from '../models/PublicSpending'
+import PublicSpending from '../types/PublicSpending'
 
 const parsePublicSpendingCSVFile = () => {
-  const filePath = join(__dirname, '..', 'data', 'anvisa.csv')
+  const filePath = join(__dirname, '..', '..', 'data', 'anvisa.csv')
   const strContent = readFileSync(filePath, 'utf-8')
   let parsedContent: any[] = parse(strContent)
   parsedContent = parsedContent.slice(1)
@@ -40,7 +40,7 @@ export const getActivitySpendingsThroughYears = (
 
   for (let year of responseMap.keys()) {
     const value = responseMap.get(year)
-    if (value) {
+    if (value != undefined) {
       const spending: PublicSpending = {
         activity,
         organization: 'ANVISA',
