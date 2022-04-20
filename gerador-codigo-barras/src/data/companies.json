@@ -1,0 +1,21 @@
+[{
+  "code": "123456",
+  "company": "Multilaser",
+  "country": "Brazil"
+}, {
+  "code": "234567",
+  "company": "Volkswagen",
+  "country": "Germany"
+}, {
+  "code": "345678",
+  "company": "Amazon",
+  "country": "United States"
+}, {
+  "code": "456789",
+  "company": "Samsung",
+  "country": "South Korea"
+}, {
+  "code": "567890",
+  "company": "Konami",
+  "country": "Japan"
+}]

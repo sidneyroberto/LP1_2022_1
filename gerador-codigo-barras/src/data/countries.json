@@ -1,0 +1,523 @@
+[{
+  "code": "000",
+  "country": "UPC-A compatible -  United States and Canada"
+}, {
+  "code": "019",
+  "country": "UPC-A compatible -  United States and Canada"
+}, {
+  "code": "020",
+  "country": "UPC-A compatible - Used to issue restricted circulation numbers within a geographic region"
+}, {
+  "code": "029",
+  "country": "UPC-A compatible - Used to issue restricted circulation numbers within a geographic region"
+}, {
+  "code": "030",
+  "country": "UPC-A compatible -  United States drugs (see United States National Drug Code)"
+}, {
+  "code": "039",
+  "country": "UPC-A compatible -  United States drugs (see United States National Drug Code)"
+}, {
+  "code": "040",
+  "country": "UPC-A compatible - Used to issue restricted circulation numbers within a company"
+}, {
+  "code": "049",
+  "country": "UPC-A compatible - Used to issue restricted circulation numbers within a company"
+}, {
+  "code": "050",
+  "country": "UPC-A compatible - GS1 US reserved for future use"
+}, {
+  "code": "059",
+  "country": "UPC-A compatible - GS1 US reserved for future use"
+}, {
+  "code": "060",
+  "country": "UPC-A compatible -  United States and Canada"
+}, {
+  "code": "099",
+  "country": "UPC-A compatible -  United States and Canada"
+}, {
+  "code": "100",
+  "country": "United States"
+}, {
+  "code": "139",
+  "country": "United States"
+}, {
+  "code": "200",
+  "country": "Used to issue GS1 restricted circulation number within a geographic region[1]"
+}, {
+  "code": "299",
+  "country": "Used to issue GS1 restricted circulation number within a geographic region[1]"
+}, {
+  "code": "300",
+  "country": "France and  Monaco"
+}, {
+  "code": "379",
+  "country": "France and  Monaco"
+}, {
+  "code": "380",
+  "country": "Bulgaria"
+}, {
+  "code": "383",
+  "country": "Slovenia"
+}, {
+  "code": "385",
+  "country": "Croatia"
+}, {
+  "code": "387",
+  "country": "Bosnia and Herzegovina"
+}, {
+  "code": "389",
+  "country": "Montenegro"
+}, {
+  "code": "390",
+  "country": "Kosovo"
+}, {
+  "code": "400",
+  "country": "Germany"
+}, {
+  "code": "440",
+  "country": "Germany"
+}, {
+  "code": "450",
+  "country": "Japan"
+}, {
+  "code": "459",
+  "country": "Japan"
+}, {
+  "code": "460",
+  "country": "Russia (barcodes inherited from the  Soviet Union)"
+}, {
+  "code": "469",
+  "country": "Russia (barcodes inherited from the  Soviet Union)"
+}, {
+  "code": "470",
+  "country": "Kyrgyzstan"
+}, {
+  "code": "471",
+  "country": "Taiwan"
+}, {
+  "code": "474",
+  "country": "Estonia"
+}, {
+  "code": "475",
+  "country": "Latvia"
+}, {
+  "code": "476",
+  "country": "Azerbaijan"
+}, {
+  "code": "477",
+  "country": "Lithuania"
+}, {
+  "code": "478",
+  "country": "Uzbekistan"
+}, {
+  "code": "479",
+  "country": "Sri Lanka"
+}, {
+  "code": "480",
+  "country": "Philippines"
+}, {
+  "code": "481",
+  "country": "Belarus"
+}, {
+  "code": "482",
+  "country": "Ukraine"
+}, {
+  "code": "483",
+  "country": "Turkmenistan"
+}, {
+  "code": "484",
+  "country": "Moldova"
+}, {
+  "code": "485",
+  "country": "Armenia"
+}, {
+  "code": "486",
+  "country": "Georgia"
+}, {
+  "code": "487",
+  "country": "Kazakhstan"
+}, {
+  "code": "488",
+  "country": "Tajikistan"
+}, {
+  "code": "489",
+  "country": "Hong Kong"
+}, {
+  "code": "490",
+  "country": "Japan"
+}, {
+  "code": "499",
+  "country": "Japan"
+}, {
+  "code": "500",
+  "country": "United Kingdom"
+}, {
+  "code": "509",
+  "country": "United Kingdom"
+}, {
+  "code": "520",
+  "country": "Greece"
+}, {
+  "code": "521",
+  "country": "Greece"
+}, {
+  "code": "528",
+  "country": "Lebanon"
+}, {
+  "code": "529",
+  "country": "Cyprus"
+}, {
+  "code": "530",
+  "country": "Albania"
+}, {
+  "code": "531",
+  "country": "North Macedonia"
+}, {
+  "code": "535",
+  "country": "Malta"
+}, {
+  "code": "539",
+  "country": "Ireland"
+}, {
+  "code": "540",
+  "country": "Belgium and  Luxembourg"
+}, {
+  "code": "549",
+  "country": "Belgium and  Luxembourg"
+}, {
+  "code": "560",
+  "country": "Portugal"
+}, {
+  "code": "569",
+  "country": "Iceland"
+}, {
+  "code": "570",
+  "country": "Denmark,  Faroe Islands and  Greenland"
+}, {
+  "code": "579",
+  "country": "Denmark,  Faroe Islands and  Greenland"
+}, {
+  "code": "590",
+  "country": "Poland"
+}, {
+  "code": "594",
+  "country": "Romania"
+}, {
+  "code": "599",
+  "country": "Hungary"
+}, {
+  "code": "600",
+  "country": "South Africa"
+}, {
+  "code": "601",
+  "country": "South Africa"
+}, {
+  "code": "603",
+  "country": "Ghana"
+}, {
+  "code": "604",
+  "country": "Senegal"
+}, {
+  "code": "608",
+  "country": "Bahrain"
+}, {
+  "code": "609",
+  "country": "Mauritius"
+}, {
+  "code": "611",
+  "country": "Morocco"
+}, {
+  "code": "613",
+  "country": "Algeria"
+}, {
+  "code": "615",
+  "country": "Nigeria"
+}, {
+  "code": "616",
+  "country": "Kenya"
+}, {
+  "code": "617",
+  "country": "Cameroon"
+}, {
+  "code": "618",
+  "country": "Ivory Coast"
+}, {
+  "code": "619",
+  "country": "Tunisia"
+}, {
+  "code": "620",
+  "country": "Tanzania"
+}, {
+  "code": "621",
+  "country": "Syria"
+}, {
+  "code": "622",
+  "country": "Egypt"
+}, {
+  "code": "623",
+  "country": "Brunei"
+}, {
+  "code": "624",
+  "country": "Libya"
+}, {
+  "code": "625",
+  "country": "Jordan"
+}, {
+  "code": "626",
+  "country": "Iran"
+}, {
+  "code": "627",
+  "country": "Kuwait"
+}, {
+  "code": "628",
+  "country": "Saudi Arabia"
+}, {
+  "code": "629",
+  "country": "United Arab Emirates"
+}, {
+  "code": "630",
+  "country": "Qatar"
+}, {
+  "code": "631",
+  "country": "Namibia"
+}, {
+  "code": "640",
+  "country": "Finland"
+}, {
+  "code": "649",
+  "country": "Finland"
+}, {
+  "code": "690",
+  "country": "China"
+}, {
+  "code": "699",
+  "country": "China"
+}, {
+  "code": "700",
+  "country": "Norway"
+}, {
+  "code": "709",
+  "country": "Norway"
+}, {
+  "code": "729",
+  "country": "Israel"
+}, {
+  "code": "730",
+  "country": "Sweden"
+}, {
+  "code": "739",
+  "country": "Sweden"
+}, {
+  "code": "740",
+  "country": "Guatemala"
+}, {
+  "code": "741",
+  "country": "El Salvador"
+}, {
+  "code": "742",
+  "country": "Honduras"
+}, {
+  "code": "743",
+  "country": "Nicaragua"
+}, {
+  "code": "744",
+  "country": "Costa Rica"
+}, {
+  "code": "745",
+  "country": "Panama"
+}, {
+  "code": "746",
+  "country": "Dominican Republic"
+}, {
+  "code": "750",
+  "country": "Mexico"
+}, {
+  "code": "754",
+  "country": "Canada"
+}, {
+  "code": "755",
+  "country": "Canada"
+}, {
+  "code": "759",
+  "country": "Venezuela"
+}, {
+  "code": "760",
+  "country": "Switzerland and  Liechtenstein"
+}, {
+  "code": "769",
+  "country": "Switzerland and  Liechtenstein"
+}, {
+  "code": "770",
+  "country": "Colombia"
+}, {
+  "code": "771",
+  "country": "Colombia"
+}, {
+  "code": "773",
+  "country": "Uruguay"
+}, {
+  "code": "775",
+  "country": "Peru"
+}, {
+  "code": "777",
+  "country": "Bolivia"
+}, {
+  "code": "778",
+  "country": "Argentina"
+}, {
+  "code": "779",
+  "country": "Argentina"
+}, {
+  "code": "780",
+  "country": "Chile"
+}, {
+  "code": "784",
+  "country": "Paraguay"
+}, {
+  "code": "786",
+  "country": "Ecuador"
+}, {
+  "code": "789",
+  "country": "Brazil"
+}, {
+  "code": "790",
+  "country": "Brazil"
+}, {
+  "code": "800",
+  "country": "Italy,  San Marino and   Vatican City"
+}, {
+  "code": "839",
+  "country": "Italy,  San Marino and   Vatican City"
+}, {
+  "code": "840",
+  "country": "Spain and  Andorra"
+}, {
+  "code": "849",
+  "country": "Spain and  Andorra"
+}, {
+  "code": "850",
+  "country": "Cuba"
+}, {
+  "code": "858",
+  "country": "Slovakia"
+}, {
+  "code": "859",
+  "country": "Czech Republic (barcode inherited from  Czechoslovakia)"
+}, {
+  "code": "860",
+  "country": "Serbia (barcode inherited from  Yugoslavia and  Serbia and Montenegro)"
+}, {
+  "code": "865",
+  "country": "Mongolia"
+}, {
+  "code": "867",
+  "country": "North Korea"
+}, {
+  "code": "868",
+  "country": "Turkey"
+}, {
+  "code": "869",
+  "country": "Turkey"
+}, {
+  "code": "870",
+  "country": "Netherlands"
+}, {
+  "code": "879",
+  "country": "Netherlands"
+}, {
+  "code": "880",
+  "country": "South Korea"
+}, {
+  "code": "883",
+  "country": "Myanmar"
+}, {
+  "code": "884",
+  "country": "Cambodia"
+}, {
+  "code": "885",
+  "country": "Thailand"
+}, {
+  "code": "888",
+  "country": "Singapore"
+}, {
+  "code": "890",
+  "country": "India"
+}, {
+  "code": "893",
+  "country": "Vietnam"
+}, {
+  "code": "896",
+  "country": "Pakistan"
+}, {
+  "code": "899",
+  "country": "Indonesia"
+}, {
+  "code": "900",
+  "country": "Austria"
+}, {
+  "code": "919",
+  "country": "Austria"
+}, {
+  "code": "930",
+  "country": "Australia"
+}, {
+  "code": "939",
+  "country": "Australia"
+}, {
+  "code": "940",
+  "country": "New Zealand"
+}, {
+  "code": "949",
+  "country": "New Zealand"
+}, {
+  "code": "950",
+  "country": "GS1 Global Office: Special applications"
+}, {
+  "code": "951",
+  "country": "Used to issue General Manager Numbers for the EPC General Identifier (GID) scheme as defined by the EPC Tag Data Standard"
+}, {
+  "code": "952",
+  "country": "Used for demonstrations and examples of the GS1 system"
+}, {
+  "code": "955",
+  "country": "Malaysia"
+}, {
+  "code": "958",
+  "country": "Macau"
+}, {
+  "code": "960",
+  "country": "GS1 UK Office: GTIN-8 allocations"
+}, {
+  "code": "961",
+  "country": "GS1 UK Office: GTIN-8 allocations"
+}, {
+  "code": "962",
+  "country": "GS1 Global Office: GTIN-8 allocations"
+}, {
+  "code": "969",
+  "country": "GS1 Global Office: GTIN-8 allocations"
+}, {
+  "code": "977",
+  "country": "Serial publications (ISSN)"
+}, {
+  "code": "978",
+  "country": "\"Bookland\" (ISBN) – 979-0 used for sheet music (\"Musicland\", ISMN-13, replaces deprecated ISMN M- numbers)"
+}, {
+  "code": "979",
+  "country": "\"Bookland\" (ISBN) – 979-0 used for sheet music (\"Musicland\", ISMN-13, replaces deprecated ISMN M- numbers)"
+}, {
+  "code": "980",
+  "country": "Refund receipts"
+}, {
+  "code": "981",
+  "country": "GS1 coupon identification for common currency areas"
+}, {
+  "code": "984",
+  "country": "GS1 coupon identification for common currency areas"
+}, {
+  "code": "990",
+  "country": "GS1 coupon identification"
+}, {
+  "code": "999",
+  "country": "GS1 coupon identification"
+}]
