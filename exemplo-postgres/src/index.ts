@@ -5,36 +5,36 @@ import { Article } from './models/Article'
 import { Editor } from './models/Editor'
 
 const run = async () => {
-    await createTables()
+  await createTables()
 
-    let editor: Editor = {
-        name: 'Sidney Sousa',
-        email: 'sidney@email.com'
-    }
+  let editor: Editor = {
+    name: 'Sidney Sousa',
+    email: 'sidney@email.com',
+  }
 
-    await saveEditor(editor)
+  await saveEditor(editor)
 
-    editor = {
-        name: 'Leandro Magalhães',
-        email: 'leandro@email.com'
-    }
+  editor = {
+    name: 'Leandro Magalhães',
+    email: 'leandro@email.com',
+  }
 
-    await saveEditor(editor)
-    
-    const editors = await findAllEditors()
-    console.log(editors.length)
-    //editors.forEach(e => console.log(e))
+  await saveEditor(editor)
 
-    const article: Article = {
-        title: 'Como pesquisar bugs no StackOverlow',
-        content: 'É muito simples! Basta você...',
-        editors
-    }
+  const editors = await findAllEditors()
+  console.log(editors.length)
+  //editors.forEach(e => console.log(e))
 
-    await saveArticle(article)
+  const article: Article = {
+    title: 'Como pesquisar bugs no StackOverlow',
+    content: 'É muito simples! Basta você...',
+    editors,
+  }
 
-    const articles = await findAllArticles()
-    articles.forEach(a => console.log(a))
+  await saveArticle(article)
+
+  const articles = await findAllArticles()
+  articles.forEach((a) => console.log(a))
 }
 
 run()
