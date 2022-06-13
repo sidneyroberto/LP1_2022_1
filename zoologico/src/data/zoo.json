@@ -1,0 +1,291 @@
+{
+  "especies": [{
+      "id": 1,
+      "nome_cientifico": "Panthera onca",
+      "nome_popular": "onça-preta",
+      "habitat": "florestas",
+      "familia": "felideos",
+      "ordem": "carnivora"
+    },
+    {
+      "id": 2,
+      "nome_cientifico": "Panthera leo",
+      "nome_popular": "leão",
+      "habitat": "África",
+      "familia": "felideos",
+      "ordem": "carnivora"
+    },
+    {
+      "id": 3,
+      "nome_cientifico": "Panthera tigris",
+      "nome_popular": "tigre",
+      "habitat": "continente asiático",
+      "familia": "felideos",
+      "ordem": "carnivora"
+    },
+    {
+      "id": 4,
+      "nome_cientifico": "Leontopithecus rosalia",
+      "nome_popular": "mico-leão-dourado",
+      "habitat": "mata atlântica brasileira",
+      "familia": "Callitrichidae",
+      "ordem": "Primates"
+    },
+    {
+      "id": 5,
+      "nome_cientifico": "Felis silvestris catus",
+      "nome_popular": "gato",
+      "habitat": "europa",
+      "familia": "felideos",
+      "ordem": "carnivora"
+    }
+  ],
+  "especimes": [{
+      "id": 1,
+      "nro_de_serie": "0001",
+      "apelido": "Bilu",
+      "id_especie": 1,
+      "id_jaula": "00001"
+    },
+    {
+      "id": 2,
+      "nro_de_serie": "0002",
+      "id_especie": 2,
+      "id_jaula": "00002"
+    },
+    {
+      "id": 3,
+      "nro_de_serie": "0003",
+      "id_especie": 3,
+      "id_jaula": "00003"
+    },
+    {
+      "id": 4,
+      "nro_de_serie": "0004",
+      "apelido": "Menina",
+      "id_especie": 4,
+      "id_jaula": "00004"
+    },
+    {
+      "id": 5,
+      "nro_de_serie": "0005",
+      "id_especie": 5,
+      "id_jaula": "00005"
+    },
+    {
+      "id": 6,
+      "nro_de_serie": "0006",
+      "id_especie": 1,
+      "id_jaula": "00002"
+    },
+    {
+      "id": 7,
+      "nro_de_serie": "0007",
+      "apelido": "Zoim",
+      "id_especie": 2,
+      "id_jaula": "00009"
+    },
+    {
+      "id": 8,
+      "nro_de_serie": "0008",
+      "id_especie": 3,
+      "id_jaula": "00010"
+    },
+    {
+      "id": 9,
+      "nro_de_serie": "0009",
+      "id_especie": 4,
+      "id_jaula": "00004"
+    },
+    {
+      "id": 10,
+      "nro_de_serie": "0010",
+      "apelido": "Zazá",
+      "id_especie": 5,
+      "id_jaula": "00002"
+    },
+    {
+      "id": 11,
+      "nro_de_serie": "0011",
+      "id_especie": 1,
+      "id_jaula": "00001"
+    },
+    {
+      "id": 12,
+      "nro_de_serie": "0012",
+      "id_especie": 2,
+      "id_jaula": "00006"
+    },
+    {
+      "id": 13,
+      "nro_de_serie": "0013",
+      "id_especie": 3,
+      "id_jaula": "00007"
+    },
+    {
+      "id": 14,
+      "nro_de_serie": "0014",
+      "id_especie": 4,
+      "id_jaula": "00008"
+    },
+    {
+      "id": 15,
+      "nro_de_serie": "0015",
+      "id_especie": 5,
+      "id_jaula": "00009"
+    },
+    {
+      "id": 16,
+      "nro_de_serie": "0016",
+      "id_especie": 1,
+      "id_jaula": "00002"
+    },
+    {
+      "id": 17,
+      "nro_de_serie": "0017",
+      "id_especie": 2,
+      "id_jaula": "00004"
+    },
+    {
+      "id": 18,
+      "nro_de_serie": "0018",
+      "id_especie": 3,
+      "id_jaula": "00007"
+    },
+    {
+      "id": 19,
+      "nro_de_serie": "0019",
+      "id_especie": 4,
+      "id_jaula": "00003"
+    },
+    {
+      "id": 20,
+      "nro_de_serie": "0020",
+      "id_especie": 5,
+      "id_jaula": "00005"
+    }
+  ],
+  "jaulas": [{
+      "codigo": "00001",
+      "area": 1
+    },
+    {
+      "codigo": "00002",
+      "area": 1
+    },
+    {
+      "codigo": "00003",
+      "area": 2
+    },
+    {
+      "codigo": "00004",
+      "area": 2
+    },
+    {
+      "codigo": "00005",
+      "area": 3
+    },
+    {
+      "codigo": "00006",
+      "area": 3
+    },
+    {
+      "codigo": "00007",
+      "area": 3
+    },
+    {
+      "codigo": "00008",
+      "area": 4
+    },
+    {
+      "codigo": "00009",
+      "area": 4
+    },
+    {
+      "codigo": "00010",
+      "area": 4
+    }
+  ],
+  "jaula_zelador": [{
+      "id_jaula": "00001",
+      "id_zelador": "12001"
+    },
+    {
+      "id_jaula": "00003",
+      "id_zelador": "12002"
+    },
+    {
+      "id_jaula": "00003",
+      "id_zelador": "12003"
+    },
+    {
+      "id_jaula": "00004",
+      "id_zelador": "12004"
+    },
+    {
+      "id_jaula": "00002",
+      "id_zelador": "12002"
+    },
+    {
+      "id_jaula": "00001",
+      "id_zelador": "12003"
+    },
+    {
+      "id_jaula": "00003",
+      "id_zelador": "12004"
+    },
+    {
+      "id_jaula": "00004",
+      "id_zelador": "12002"
+    },
+    {
+      "id_jaula": "00002",
+      "id_zelador": "12003"
+    },
+    {
+      "id_jaula": "00005",
+      "id_zelador": "12002"
+    },
+    {
+      "id_jaula": "00006",
+      "id_zelador": "12003"
+    },
+    {
+      "id_jaula": "00007",
+      "id_zelador": "12001"
+    },
+    {
+      "id_jaula": "00008",
+      "id_zelador": "12004"
+    },
+    {
+      "id_jaula": "00009",
+      "id_zelador": "12002"
+    },
+    {
+      "id_jaula": "00010",
+      "id_zelador": "12002"
+    }
+  ],
+  "zeladores": [{
+      "matricula": "12001",
+      "nome": "João Alvez Cunha",
+      "data_nascimento": "1988-05-12"
+    },
+    {
+      "matricula": "12002",
+      "nome": "Pedro Martinez Bezerra",
+      "data_nascimento": "1999-07-23"
+    },
+    {
+      "matricula": "12003",
+      "nome": "Alan da Silva Nascimento",
+      "data_nascimento": "1993-02-19"
+    },
+    {
+      "matricula": "12004",
+      "nome": "Henrique Junior Lopes",
+      "data_nascimento": "1973-07-22"
+    }
+  ]
+}
